@@ -1,0 +1,10 @@
+aiohttp
+colorama
+faker
+Pillow
+dnspython
+PyPDF2
+cryptography
+prompt_toolkit
+tqdm
+rich

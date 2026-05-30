@@ -1,0 +1,26 @@
+Seshat/
+├── seshat.py                # Главный файл запуска
+├── requirements.txt         # Зависимости
+├── README.md                # Обновленная документация
+├── core/                    # Ядро фреймворка
+│   ├── __init__.py
+│   ├── config.py            # Ключи и настройки (UAS)
+│   ├── logger.py            # Единая система логирования
+│   ├── loader.py            # Автозагрузчик модулей
+│   └── network.py           # Базовые функции запросов (fetch_json)
+└── modules/                 # Изолированные модули
+    ├── identity/
+    │   ├── fake_id.py
+    │   ├── phone_scan.py
+    │   └── username_scan.py
+    ├── network/
+    │   ├── domain_scan.py
+    │   ├── ip_geo.py
+    │   ├── ip_scan.py
+    │   └── subdomain_scan.py
+    ├── tools/
+    │   ├── base64_tool.py
+    │   ├── dorks.py
+    │   └── password.py
+    └── crypto/
+        └── crypto_scan.py
